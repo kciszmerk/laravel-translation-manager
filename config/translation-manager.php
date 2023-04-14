@@ -13,6 +13,7 @@ return [
     'route'          => [
         'prefix'     => 'translations',
         'middleware' => 'auth',
+        'as' => 'translations.manager',
     ],
 
     /**
